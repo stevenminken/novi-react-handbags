@@ -1,0 +1,109 @@
+@import "https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Poppins:wght@200;300;700&display=swap";
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  font-family: Poppins, Segoe UI, Roboto, sans-serif;
+  display: flex;
+}
+
+h1, h4 {
+  color: #bc4c2a;
+  font-family: PT Serif, Times New Roman, serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  justify-content: center;
+  margin: 24px 0;
+  display: flex;
+}
+
+nav {
+  margin: 24px 0;
+}
+
+footer {
+  flex-flow: wrap;
+  display: flex;
+}
+
+section {
+  height: 400px;
+  background-color: #f6f3ef;
+  flex-direction: column;
+  flex: 350px;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  display: flex;
+  overflow: hidden;
+}
+
+section p {
+  max-width: 200px;
+}
+
+button {
+  color: #bc4c2a;
+  text-transform: lowercase;
+  cursor: pointer;
+  background-color: #0000;
+  border: 1px solid #bc4c2a;
+  padding: 8px 16px;
+  font-size: 10px;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #bc4c2a;
+  transition: all .4s ease-in-out;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  color: #d08169;
+  border-color: #d08169;
+}
+
+button + button {
+  margin-left: 12px;
+}
+
+article {
+  width: 100px;
+  text-align: center;
+  margin: 16px;
+  position: relative;
+}
+
+article span {
+  color: #fff;
+  background-color: #bc4c2a;
+  padding: 4px;
+  font-size: 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+article p {
+  font-size: 10px;
+}
+
+/*# sourceMappingURL=index.css.map */
